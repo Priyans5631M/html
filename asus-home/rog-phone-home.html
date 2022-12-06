@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+header{
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 200px;
+  transition: 0.5s ease;
+}
+header .brand{
+  color: rgb(52, 20, 20);
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+header .navigation{
+  position: relative;
+}
+
+header .navigation .navigation-items a{
+  position: relative;
+  color: rgb(77, 24, 24);
+  font-size: 1em;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 30px;
+  transition: 0.3s ease;
+}
+
+header .navigation .navigation-items a:before{
+  content: '';
+  position: absolute;
+  background: rgb(33, 87, 104);
+  width: 0;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s ease;
+}
+
+header .navigation .navigation-items a:hover:before{
+  width: 100%;
+}
+        body{
+            background-color: #c4cbe8c4;
+            font-family: sans-serif;
+        }
+
+        .div1,.div2,.div3{
+            display: flex;
+            flex-direction: row;
+            border: 3px saddlebrown;
+            height: auto;
+            clear: both;
+            margin-top: 0px;
+            padding-left: 14%;
+        }
+        .Second-row,.First-row,.Third-row{
+            
+            height: 415px;
+            width: 300px;
+            border: 2px solid gray;
+            margin: 12px;
+            background-color: #feffffbd;
+            border-radius: 25px;
+            box-shadow: 3px 13px 50px 3px gray;
+
+        }
+        img{
+            margin-left: -3%;
+            height: 229px;
+            margin-top: 8%;
+
+        }
+        h2{
+            margin-left: 11%;
+            margin-bottom: 17px;
+            margin-top: 28px;
+            color: #3e3132f2;;
+
+        }
+        
+        ul{
+            margin-left: 24px;
+            color: #000000ab;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="brand">Android</a>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+          <div class="navigation-items">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Explore</a>
+            <a href="#">Gallery</a>
+            <a href="#">Contact</a>
+          </div>
+        </div>
+      </header>
+      <hr style="margin: 50px 192px 37px 192px;">
+    <div class="div1">
+    <div class="First-row">
+        <img src="rog-6.png">
+        <h2>ROG Phone 6</h2>
+        <ul>
+            <li>Qualcomm Snapdragon 8+ Gen 1</li>
+            <li>LPDDR5 12GB</li>
+            <li>UFS3.1 256GB</li>
+            <li>6000mAh battery</li>
+        </ul>
+    </div>
+    <div class="First-row">
+        <img src="rog-6.png">
+        <h2>ROG Phone 6</h2>
+        <ul>
+            <li>Qualcomm Snapdragon 8+ Gen 1</li>
+            <li>LPDDR5 12GB</li>
+            <li>UFS3.1 256GB</li>
+            <li>6000mAh battery</li>
+        </ul>
+    </div>
+    <div class="First-row">
+        <img src="rog-6d.png">
+        <h2>ROG Phone 6D</h2>
+        <ul>
+            <li>MediaTek Dimensity 9000+</li>
+            <li>LPDDR5X 12GB</li>
+            <li>UFS3.1 256GB</li>
+            <li>6000mAh battery</li>
+        </ul>
+    </div>
+    </div>
+
+    <!--                     ROG-5-SERIES                                             -->
+
+    <div class="div2">
+    <div class="Second-row">
+        <img src="rog-5.png">
+        <h2>ROG Phone 5</h2>
+        <ul>
+            <li>Qualcomm Snapdragon 888</li>
+            <li>LPDDR5 16GB</li>
+            <li>UFS3.1 256GB</li>
+            <li>6000mAh battery</li>
+        </ul>
+    </div>
+    <div class="Second-row">
+        <img src="rog-5.png">
+        <h2>ROG Phone 5</h2>
+        <ul>
+            <li>Qualcomm Snapdragon 888</li>
+            <li>LPDDR5 16GB</li>
+            <li>UFS3.1 256GB</li>
+            <li>6000mAh battery</li>
+        </ul>
+    </div>
+    <div class="Second-row">
+        <img src="rog-5s.png">
+        <h2>ROG Phone 5s</h2>
+        <ul>
+            <li>Qualcomm Snapdragon 888</li>
+            <li>LPDDR5 16GB</li>
+            <li>UFS3.1 256GB</li>
+            <li>6000mAh battery</li>
+        </ul>
+    </div>
+    </div>
+
+    <!--            ROG-PRO-SERIES                                                     -->
+
+    <div class="div3">
+    <div class="Third-row">
+        <img src="rog-6pro.png">
+        <h2>ROG Phone 6 Pro</h2>
+        <ul>
+            <li>Qualcomm Snapdragon 8+ Gen 1</li>
+            <li>LPDDR5 18GB</li>
+            <li>UFS3.1 512GB</li>
+            <li>6000mAh battery</li>
+        </ul>
+    </div>
+    <div class="Third-row">
+        <img src="rog-5spro.png">
+        <h2>ROG Phone 5S Pro</h2>
+        <ul>
+            <li>Qualcomm Snapdragon 888 Plus</li>
+            <li>LPDDR5 18GB</li>
+            <li>UFS3.1 512GB</li>
+            <li>6000mAh battery</li>
+        </ul>
+
+    </div>
+    </div>
+</body>
+
+</html>

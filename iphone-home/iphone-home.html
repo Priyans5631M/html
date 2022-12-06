@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+header{
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 200px;
+  transition: 0.5s ease;
+}
+header .brand{
+  color: rgb(52, 20, 20);
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+header .navigation{
+  position: relative;
+}
+
+header .navigation .navigation-items a{
+  position: relative;
+  color: rgb(77, 24, 24);
+  font-size: 1em;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 30px;
+  transition: 0.3s ease;
+}
+
+header .navigation .navigation-items a:before{
+  content: '';
+  position: absolute;
+  background: rgb(33, 87, 104);
+  width: 0;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s ease;
+}
+
+header .navigation .navigation-items a:hover:before{
+  width: 100%;
+}
+        body{
+            background-color: #c4cbe8c4;
+            font-family: sans-serif;
+        }
+
+        .First-row,.Second-row,.Third-row,.Fourth-row{
+            display: flex;
+            flex-direction: row;
+            border: 3px saddlebrown;
+            height: auto;
+            clear: both;
+            margin-top: 0px;
+            padding-left: 14%;
+        }
+        img{
+            height: 277px;
+            padding-top: 12px;
+            
+
+        }
+        .Second-elements,.First-elements,.Third-elements,.Fourth-elements{
+            
+            height: 456px;
+            width: 300px;
+            border: 2px solid gray;
+            margin: 12px;
+            background-color: #ffffffbf;
+            border-radius: 25px;
+            box-shadow: 3px 13px 50px 3px gray;
+
+        }
+        h2{
+            margin-left: 11%;
+            margin-bottom: 26px;
+            margin-top: 4px;
+            color: #3e3132f2;;
+
+        }
+        
+        ul{
+            margin-left: 25px;
+            color: #000000ab;
+        }
+        #pro11{
+            height: 57%;
+            padding-top: 4%;
+            padding-left: 5%;
+        }
+        #pro12{
+            height: 71%;
+            margin-left: -17px;
+            margin-top: -33px;
+            width: 115%;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#" class="brand">Android</a>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+          <div class="navigation-items">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Explore</a>
+            <a href="#">Gallery</a>
+            <a href="#">Contact</a>
+          </div>
+        </div>
+      </header>
+      <hr style="margin: 50px 192px 37px 192px;">
+    <div class="First-row">
+        <div class="First-elements">
+            <img src="iphone-14pro max.avif">
+            <h2>iPhone 14 Pro Max</h2>
+            <ul>
+                <li>A16 Bionic</li>
+                <li>6 GB RAM</li>
+                <li>48+12+12 MP Triple Cameras</li>
+                <li>4323 mAh</li>
+            </ul>
+        </div>
+        <div class="First-elements">
+            <img src="w-iphone14.avif">
+            <h2>iPhone 14</h2>
+            <ul>
+                <li>A15 Bionic</li>
+                <li>6 GB RAM</li>
+                <li>12+12 MP Dual Cameras</li>
+                <li>3279 mAh</li>
+            </ul>
+        </div>
+        <div class="First-elements">
+            <img src="iphone-14pro.avif">
+            <h2>iPhone 14 Pro</h2>
+            <ul>
+                <li>A16 Bionic</li>
+                <li>6 GB RAM</li>
+                <li>48+12+12 MP Triple Cameras</li>
+                <li>3200 mAh</li>
+            </ul>
+        </div>
+    </div>
+
+<!--               SECOND ROW STARTING                                      -->
+
+    <div class="Second-row">
+        <div class="Second-elements">
+            <img src="iphone-13pro.jpeg">
+            <h2>iPhone 13 Pro</h2>
+            <ul>
+                <li>A15 Bionic</li>
+                <li>6 GB RAM</li>
+                <li>12+12+12 MP Triple Cameras</li>
+                <li>3095 mAh</li>
+            </ul>
+        </div>
+        <div class="Second-elements">
+            <img src="w-iphone-13.avif">
+            <h2>iPhone 13</h2>
+            <ul>
+                <li>A15 Bionic</li>
+                <li>4 GB RAM</li>
+                <li>12+12 MP Dual Cameras</li>
+                <li>3227 mAh</li>
+            </ul>
+        </div>
+        <div class="Second-elements">
+            <img src="iphone-13.avif">
+            <h2>iPhone 13</h2>
+            <ul>
+                <li>A15 Bionic</li>
+                <li>4 GB RAM</li>
+                <li>12+12 MP Dual Cameras</li>
+                <li>3227 mAh</li>
+            </ul>
+        </div>
+    </div>
+
+<!--                THIRD ROW STARTING                                               -->
+
+    <div class="Third-row">
+        <div class="Third-elements">
+            <img src="iphone-12.avif">
+            <h2>iPhone 12</h2>
+            <ul>
+                <li>A14 Bionic</li>
+                <li>4 GB RAM</li>
+                <li>12+12 MP Dual Cameras </li>
+                <li>2815 mAh</li>
+            </ul>
+        </div>
+        <div class="Third-elements">
+            <img id="pro12" src="iphone-12pro.png">
+            <h2>iPhone 12 Pro</h2>
+            <ul>
+                <li>A14 Bionic</li>
+                <li>6 GB RAM</li>
+                <li>12+12+12 MP Triple Cameras</li>
+                <li>2815 mAh</li>
+            </ul>
+        </div>
+        <div class="Third-elements">
+            <img src="g-iphone-12.avif">
+            <h2>iPhone 12</h2>
+            <ul>
+                <li>A14 Bionic</li>
+                <li>4 GB RAM</li>
+                <li>12+12 MP Dual Cameras </li>
+                <li>2815 mAh</li>
+            </ul>
+        </div>
+    </div>
+
+<!--                   FOURTH ROW STARTING                                      -->
+
+    <div class="Fourth-row">
+        <div class="Fourth-elements">
+            <img src="w-iphone-11.avif">
+            <h2>iPhone 11</h2>
+            <ul>
+                <li>A13 Bionic</li>
+                <li>4 GB RAM</li>
+                <li>12+12 MP Dual Cameras</li>
+                <li>3110 mAh</li>
+            </ul>
+        </div>
+        <div class="Fourth-elements">
+            <img id="pro11" src="iphone-11pro.webp">
+            <h2>iPhone 11 Pro</h2>
+            <ul>
+                <li>A13 Bionic</li>
+                <li>4 GB RAM</li>
+                <li>12+12+12 MP Triple Cameras</li>
+                <li>3046 mAh</li>
+            </ul>
+        </div>
+        <div class="Fourth-elements">
+            <img src="iphone-11.avif">
+            <h2>iPhone 11</h2>
+            <ul>
+                <li>A13 Bionic</li>
+                <li>4 GB RAM</l1>
+                <li>12+12 MP Dual Cameras</li>
+                <li>3110 mAh</li>
+        </div>
+    </div>
+
+</body>
+</html>
