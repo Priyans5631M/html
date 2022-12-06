@@ -201,7 +201,7 @@ section{
   transition: 2s ease;
   transition-property: clip-path;
 
-
+}
 @media (max-width: 1040px){
   header{
     padding: 12px 20px;
