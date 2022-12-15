@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background-color: rgba(189, 187, 183, 0.29);
+    }
+
+    header {
+      z-index: 999;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 200px;
+      transition: 0.5s ease;
+    }
+
+    header .brand {
+      color: rgb(52, 20, 20);
+      font-size: 1.5em;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+
+    header .navigation {
+      position: relative;
+    }
+
+    header .navigation .navigation-items a {
+      position: relative;
+      color: rgb(77, 24, 24);
+      font-size: 1em;
+      font-weight: 500;
+      text-decoration: none;
+      margin-left: 30px;
+      transition: 0.3s ease;
+    }
+
+    header .navigation .navigation-items a:before {
+      content: '';
+      position: absolute;
+      background: rgb(33, 87, 104);
+      width: 0;
+      height: 3px;
+      bottom: 0;
+      left: 0;
+      transition: 0.3s ease;
+    }
+
+    header .navigation .navigation-items a:hover:before {
+      width: 100%;
+    }
+
+    .cv {
+      position: absolute;
+      top: 54px;
+      /* width:100%; */
+      margin: 6%;
+      border-radius: 28px;
+      overflow: hidden;
+      box-shadow: 10px 10px 110px 10px;
+    }
+
+    img {
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <a href="#" class="brand">Android</a>
+    <div class="menu-btn"></div>
+    <div class="navigation">
+      <div class="navigation-items">
+        <a href="Final/asus-home/rog-phone-home.html">Home</a>
+        <a href="#">About</a>
+        <a href="#">Explore</a>
+        <a href="#">Gallery</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+  </header>
+  <hr style="margin: 50px 192px 192px 192px;">
+  <div class="cv">
+    <img src="cv.jpg">
+  </div>
+
+
+
+</body>
+
+</html>
